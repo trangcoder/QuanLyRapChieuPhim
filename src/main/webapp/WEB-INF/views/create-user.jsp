@@ -16,7 +16,7 @@
 		<div class="page-header" style="margin: 0!important;">
 		  <h1>Hello MVC <small>Create User</small></h1>
 		</div>
-		<form:form modelAttribute="appUser" action="${pageContext.request.contextPath}/user" method='POST' class="form-horizontal" role="form">
+		<%-- <form:form modelAttribute="appUser" action="${pageContext.request.contextPath}/user" method='POST' class="form-horizontal" role="form">
               <form:hidden path="id"/>
                <div style="margin-bottom: 25px" class="input-group">
                    <span class="input-group-addon"><i class="glyphicon glyphicon-usd"></i></span>
@@ -32,7 +32,7 @@
                      	<input type="submit" id="btn-login" class="btn btn-success" value="OK" />
                      </div>
                  </div>
-      	</form:form>  
+      	</form:form>  --%> 
 	</div>
 </body>
 </html>
